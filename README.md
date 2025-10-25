@@ -1,1 +1,1 @@
-# tp2-informatica
+# Este es el TP2 de informática
