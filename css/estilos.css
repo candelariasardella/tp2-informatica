@@ -1,3 +1,6 @@
+/* Estilos generales */
+
+/*
 * {
   box-sizing: border-box;
 }
@@ -5,9 +8,15 @@
 body {
 
 
+
 }
 
+*/
+
+
 /* Barra de navegación */
+
+
 
 .navbar {
   
@@ -25,9 +34,39 @@ body {
     display: none;
 }
 
+/* Sección Principal */
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    /*font-family: 'Roboto', sans-serif;*/
+}
+
+.principal {
+    background-color: blueviolet;
+    min-height: 450px;
+    text-align: center;
+
+}
+
+.principal-inicio {
+    padding: 3rem;
+}
+
+
+
+
 /* Diseño responsive, salto a computadora: */
 
-@media (min-width: 760px) {
+@media (min-width: 450px) {
+
+/* Barra de navegación */
 
 .navbar-brand {
     display: block;
@@ -35,3 +74,6 @@ body {
 
 
 }
+
+
+/* Sección Principal */
