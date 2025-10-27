@@ -19,7 +19,8 @@
   padding: 16px;
   color: #fff;
   overflow: hidden;
-  background-color: rgba(0, 0, 0, 0.6);
+  /*background-color: rgba(0, 0, 0, 0.6);*/
+   background-color: #000; /* fondo negro totalmente opaco */
 }
 
 .direction-reveal__anim--enter, .direction-reveal__anim--leave {

@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ciclo Frescura</title>
+    <title>Frescura</title>
+
+    <!-- Favicon -->
+     <link rel="icon" type="image/x-icon" href="img/logofrescura.png">
+  
 
 <!-- Bootstrap -->
  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-
 
 <!-- Fuentes -->
 
@@ -22,6 +25,8 @@
 <body>
   <div class="contenedor">
 
+     <header>
+
 <!-- Barra de navegación -->    
     
 <nav class="navbar navbar-expand-md navbar-light">
@@ -30,14 +35,13 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbar-toggler">
-      <a class="navbar-brand" href="#">
-        <img src="img/logo.png" alt="logo" width="100"></a>
+      <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo" width="100"></a>
       <ul class="navbar-nav d-flex justify-content-center align-items-center">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="quienesomos.html">Quiénes somos</a>
+          <a class="nav-link" href="quienesomos.html">Qué es Frescura</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="edicionesanteriores.html">Ediciones Anteriores</a>
@@ -61,40 +65,37 @@
   </div>
 </nav>
 
-    <header>
-
-      
+    
     </header>
-
-    
-    
-    <section>
+ 
+    <section class="carrusel">
         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-             <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2" aria-label="Slide 3"></button>
+         </div>
+
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="10000">
-      <img src="img/banner.JPG" class="d-block w-100" alt="...">
+      <img src="img/banner1.jpg" class="d-block w-100" alt="banner1">
         <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+        <h5>Frescura</h5>
+        <p>Próxima fecha: Domingo 02/11 - Edición 176 </p>
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="2000">
-      <img src="img/banner.JPG" class="d-block w-100" alt="...">
+      <img src="img/banner-2.JPG" class="d-block w-100" alt="banner2">
        <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+        <h5>Ciclo itinerante de música y poesía</h5>
+        <p>Hace 11 años conectando</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="img/banner.JPG" class="d-block w-100" alt="...">
+      <img src="img/banner3.JPG" class="d-block w-100" alt="banner3">
        <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+        <h5>Plenario Arty</h5>
+        <p>Curaduría por Gon Aguerrido</p>
       </div>
     </div>
   </div>
@@ -109,22 +110,121 @@
 </div>
     </section>
 
-    <!--
-    <section class="principal align-items-stretch"> 
-        <div class="principal-inicio d-flex flex-column justify-content-center align-items-center">
-            <img src="img/banner.JPG" alt="banner gonza" class="principal-img-banner">
-            <h1>Frescura</h1>
-            <h2>Ciclo de música y poesía, curado por Gon Aguerrido.</h2>
-
-        </div>
-
-    </section> -->
 
   
-    <footer>
+<section class="my-5 bg-light p-5 shadow rounded" id="proxima">
+  <div class="proxima-content">
+    <div>
+      <h1 class="mb-3">Tickets FRESCURA #176</h1>
+      <h4 class="mb-3">Próxima Edición del Ciclo Frescura</h4>
+      <p class="mb-1">Domingo 12 de Noviembre 2025</p>
+      <address class="mb-4">
+        <a href="https://www.google.com/maps?um=1&ie=UTF-8&fb=1&gl=ar&sa=X&geocode=KUH7nvZ5yryVMWi-e9mrVLDz&daddr=Av.+C%C3%B3rdoba+4379,+C1414BAB+Cdad.+Aut%C3%B3noma+de+Buenos+Aires">Vuela el Pez</a> - Av. Córdoba 4379
+      </address>
+    </div>
+    <a href="https://mianticipada.com/2025-11-02---FRESCURA--176-En-Vuela-El-Pez/" target="_blank" class="btn btn-primary btn-lg mt-3 mt-md-0">Comprar Entradas</a>
+  </div>
+</section>
 
-    </footer>
 
+
+
+<section class="my-5" id="disciplinas" >
+  <div class="container text-center text-white">  
+    <div class="row g-4" id="trescolumnas">
+      
+      <div class="col-md-4 p-3">
+        <div class="col-custom p-3">
+          <div class="p-3 text-light">Poesía</div>
+          <p>Un espacio abierto para quien quiera subirse al escenario y leer sus textos. Palabras que se comparten de manera espontánea, con libertad y sin filtros, para disfrutar y sentir la poesía en vivo.</p>
+          <img src="img/poesia-vertical.jpg" alt="poesía" class="img-fluid mt-3">
+          <!-- opción horizntal <img src="img/poesia.jpg" alt="poesía" class="img-fluid mt-3"> -->
+        </div>
+      </div>
+
+      <div class="col-md-4 p-3">
+        <div class="col-custom p-3">
+          <div class="p-3 text-light">Música en vivo</div>
+          <p>Cuatro proyectos por noche. <br> Solistas y bandas, se suben al escenario para tocar en vivo. Un espacio de conexión entre <strong>artistas emergentes</strong> para compartir sonidos y unir públicos.</p>
+           <img src="img/musica-vertical.jpeg" alt="musica" class="img-fluid mt-3">
+           <!-- opción horizntal <img src="img/musica.jpg" alt="musica" class="img-fluid mt-3"> -->
+        </div>
+      </div>
+
+      <div class="col-md-4 p-3">
+        <div class="col-custom p-3">
+          <div class="p-3 text-light">Visuales</div>
+          <p>Performance y proyecciones en vivo. Cada propuesta visual o artística acompaña la música y la poesía, creando una experiencia única que mezcla colores, luces y sensaciones.</p>
+            <img src="img/visuales-vertical.jpg" alt="musica" class="img-fluid mt-3">
+            <!-- opción horizntal <img src="img/visuales.jpg" alt="visuales" class="img-fluid mt-3"> -->
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-12 p-3" id="inscripcion"> 
+      <div class="inscripcion p-5 text-dark rounded shadow text-center"> 
+        <h2 class="mb-3">¿Te interesa participar?</h2>
+         <p class="mb-4">Si sos artista visual, poeta, performer o un proyecto musical, podés postularte para próximas ediciones.</p> 
+
+         <div class="mx-auto">
+    <video class="w-50 rounded shadow" controls>
+        <source src="videos/knd-frescura6.mp4" type="video/mp4">
+        Tu navegador no soporta la reproducción de video.
+    </video>
+</div>
+
+
+         <a href="contacto.html" class="btn btn-primary btn-lg">Contacto</a> 
+        </div> 
+      </div>
+
+
+
+</div>
+
+  </div>
+</section>
+
+<!-- Inicia el footer-->
+
+<footer class="bg-dark text-white pt-5 pb-4 mt-5">
+  <div class="container">
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-start">
+
+     
+      <div class="mb-4">
+        <h4 class="fw-bold">Frescura</h4>
+        <p>Ciclo de música y poesía desde 2013.</p>
+      </div>
+
+
+      <div class="mb-4 text-start mx-md-auto">
+        <h5 class="fw-bold">Secciones</h5>
+        <ul class="list-unstyled">
+          <li><a href="quienesomos.html" class="text-white text-decoration-none">Quiénes Somos</a></li>
+          <li><a href="edicionesanteriores.html" class="text-white text-decoration-none">Ediciones</a></li>
+          <li><a href="stream.html" class="text-white text-decoration-none">Stream</a></li>
+          <li><a href="tienda.html" class="text-white text-decoration-none">Tienda</a></li>
+          <li><a href="contacto.html" class="text-white text-decoration-none">Contacto</a></li>
+        </ul>
+      </div>
+
+      <div class="mb-4 text-md-end">
+        <h5 class="fw-bold">Seguinos</h5>
+        <div class="d-flex justify-content-md-end gap-3">
+          <a href="https://instagram.com/queesfrescura" target="_blank"><img src="img/igicon.png" width="45" alt="instagram"></a>
+          <a href="mailto:gonzaaguerrido@gmail.com" target="_blank" class="mail"><img src="img/emailicon.png" width="40" alt="email"></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="text-center mt-4">
+      <small>© 2025 Frescura - Industria Argentina</small>
+    </div>
+  </div>
+</footer>
 
     </div>
     <!-- Bootstrap -->

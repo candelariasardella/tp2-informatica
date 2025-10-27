@@ -1,79 +1,184 @@
 /* Estilos generales */
 
-/*
 * {
   box-sizing: border-box;
 }
 
 body {
-
-
-
+  background-color: black;
 }
-
-*/
 
 
 /* Barra de navegación */
 
-
-
 .navbar {
-  
-    padding: 2rem;
-    background-color: whitesmoke;
-   
+  padding: 2rem;
+  background-color: whitesmoke;
 }
 
 .navbar-collapse {
-    align-items: center;
-    justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .navbar-brand {
-    display: none;
+  display: none;
+}
+
+/* Estilos carrusel */
+
+#carouselExampleInterval {
+  width: 100%;
+  max-width: 90vw; 
+}
+
+#carouselExampleInterval .carousel-inner img {
+  width: 80%;
+  height: 80vh; 
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background: rgba( 0,0,0,0.4);
+  padding: 2rem;
+  border-radius: 0.5rem;
 }
 
 /* Sección Principal */
 
 section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-h1 {
-    font-size: 2.5rem;
-    /*font-family: 'Roboto', sans-serif;*/
-}
 
 .principal {
-    background-color: blueviolet;
-    min-height: 450px;
-    text-align: center;
-
+  background-color: blueviolet;
+  min-height: 450px;
+  text-align: center;
 }
 
 .principal-inicio {
+  padding: 3rem;
+}
+
+.col-custom {
+  background-color: #334080;
+  border-radius: 0.5em;
+}
+
+.proxima {
+  background-color: whitesmoke;
+}
+
+#proxima .proxima-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+}
+
+.inscripcion {
+    /*background-color: #95a2eb;*/
+    background-color: rgb(219, 219, 219);
+    margin: 1rem;
+    padding: 2rem;
+}
+
+.contacto {
+  background-color: white;
+}
+
+.alumna {
+    background-color: black;
+    min-height: 450px;
+    text-align: center;
+}
+
+.alumna-principal {
     padding: 3rem;
 }
 
+.alumna-imagen {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px;
+
+}
+
+/* Estilos tipográficos */
+
+h1 {
+  font-size: 2.5rem;
+  /*font-family: 'Roboto', sans-serif;*/
+}
+
+.texto-contenedor {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white; 
+    border-radius: 10px; 
+    padding: 20px; 
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
 
 
+/* Estilos botones */
+.btn-primary {
+  background-color: #2e00ad; 
+  border-color: #d3d3d3;
+  color: white 
+}
+
+.btn-primary:hover {
+  background-color:#602bf1;
+  
+}
+
+/* Estilos formulario*/
+
+#contacto #form-contacto {
+  background-color: whitesmoke;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+}
+
+
+/* Estilos footer*/
+footer {
+  background-color: whitesmoke;
+}
 
 /* Diseño responsive, salto a computadora: */
 
 @media (min-width: 450px) {
+  
+    /* Barra de navegación */
 
-/* Barra de navegación */
-
-.navbar-brand {
+  .navbar-brand {
     display: block;
-}
+  }
+
+  #proxima .proxima-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+  }
+
+  #proxima .proxima-content a.btn {
+    margin-left: 4rem; 
+  }
 
 
 }
 
 
-/* Sección Principal */
+

@@ -3,24 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ciclo Frescura</title>
+    <title>Frescura</title>
 
-<!-- Bootstrap -->
- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Favicon -->
+     <link rel="icon" type="image/x-icon" href="img/logofrescura.png">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
 
-<!-- Fuentes -->
+     <!-- Fuentes -->
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-<!-- Link hoja de estilos -->
+     <!-- Link hoja de estilos -->
 
-<link rel="stylesheet" href="css/estilos.css">
+     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
   <div class="contenedor">
+
+      <header>
 
 <!-- Barra de navegación -->    
     
@@ -37,7 +42,7 @@
           <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="quienesomos.html">Quiénes somos</a>
+          <a class="nav-link" href="quienesomos.html">Qué es Frescura</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="edicionesanteriores.html">Ediciones Anteriores</a>
@@ -60,25 +65,68 @@
     </div>
   </div>
 </nav>
-
-    <header>
       
     </header>
 
+    <section class="alumna align-items-stretch">
+        <div class="alumna-principal d-flex flex-column justify-content-center align-items-center">
+          <div class="presentacion text-white">
+          <img  class="alumna-imagen" src="img/alumna.jpg"  alt="alumna">
+          <h1>Candelaria Magalí Sardella</h1>
+          <h4>Estudiante Licenciatura de Artes Multimediales</h4>
+          <p>DNI 41.048.126</p>
+          </div>
 
-    <section class="">
-        <div>
-           
+          <div class="turno text-white">
 
+          <h1>Informática General | Cátedra Drelichman</h1>
+          <h2>Trabajo Práctico N°2</h2>
+          <p>Turno Noche</p>
+          <p>2025</p>
+          </div>     
         </div>
 
     </section>
 
-  
-    <footer>
+  <!-- Inicia el footer-->
 
-    </footer>
+<footer class="bg-dark text-white pt-5 pb-4 mt-5">
+  <div class="container">
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-start">
 
+     
+      <div class="mb-4">
+        <h4 class="fw-bold">Frescura</h4>
+        <p>Ciclo de música y poesía desde 2013.</p>
+      </div>
+
+
+      <div class="mb-4 text-start mx-md-auto">
+        <h5 class="fw-bold">Secciones</h5>
+        <ul class="list-unstyled">
+          <li><a href="quienesomos.html" class="text-white text-decoration-none">Quiénes Somos</a></li>
+          <li><a href="edicionesanteriores.html" class="text-white text-decoration-none">Ediciones</a></li>
+          <li><a href="stream.html" class="text-white text-decoration-none">Stream</a></li>
+          <li><a href="tienda.html" class="text-white text-decoration-none">Tienda</a></li>
+          <li><a href="contacto.html" class="text-white text-decoration-none">Contacto</a></li>
+        </ul>
+      </div>
+
+      <div class="mb-4 text-md-end">
+        <h5 class="fw-bold">Seguinos</h5>
+        <div class="d-flex justify-content-md-end gap-3">
+          <a href="https://instagram.com/queesfrescura" target="_blank"><img src="img/igicon.png" width="45" alt="instagram"></a>
+          <a href="mailto:gonzaaguerrido@gmail.com" target="_blank" class="mail"><img src="img/emailicon.png" width="40" alt="email"></a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="text-center mt-4">
+      <small>© 2025 Frescura - Industria Argentina</small>
+    </div>
+  </div>
+</footer>
 
     </div>
     <!-- Bootstrap -->
