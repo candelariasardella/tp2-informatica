@@ -43,9 +43,17 @@
         <li class="nav-item">
           <a class="nav-link" href="quienesomos.html">Qué es Frescura</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="edicionesanteriores.html">Ediciones Anteriores</a>
-        </li>
+       <li class="nav-item dropdown">
+  <a class="nav-link" href="#" id="dropdownEdiciones" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Ediciones Anteriores
+  </a>
+  <ul class="dropdown-menu" aria-labelledby="dropdownEdiciones">
+    <li><a class="dropdown-item" href="edicionesanteriores.html">Flyers</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="galeria.html">Galería</a></li>
+  </ul>
+</li>
+
         <li class="nav-item">
           <a class="nav-link" href="stream.html">Stream</a>
         </li>
@@ -112,7 +120,7 @@
 
 
   
-<section class="my-5 bg-light p-5 shadow rounded" id="proxima">
+<section class="my-5 bg-light p-5 shadow rounded id="proxima">
   <div class="proxima-content">
     <div>
       <h1 class="mb-3">Tickets FRESCURA #176</h1>
@@ -133,7 +141,7 @@
   <div class="container text-center text-white">  
     <div class="row g-4" id="trescolumnas">
       
-      <div class="col-md-4 p-3">
+      <div class="col-md-4 p-3"> <!-- columnas de tablet para arriba, padding-->
         <div class="col-custom p-3">
           <div class="p-3 text-light">Poesía</div>
           <p>Un espacio abierto para quien quiera subirse al escenario y leer sus textos. Palabras que se comparten de manera espontánea, con libertad y sin filtros, para disfrutar y sentir la poesía en vivo.</p>
@@ -202,7 +210,7 @@
       <div class="mb-4 text-start mx-md-auto">
         <h5 class="fw-bold">Secciones</h5>
         <ul class="list-unstyled">
-          <li><a href="quienesomos.html" class="text-white text-decoration-none">Quiénes Somos</a></li>
+          <li><a href="quienesomos.html" class="text-white text-decoration-none">Qué es Frescura</a></li>
           <li><a href="edicionesanteriores.html" class="text-white text-decoration-none">Ediciones</a></li>
           <li><a href="stream.html" class="text-white text-decoration-none">Stream</a></li>
           <li><a href="tienda.html" class="text-white text-decoration-none">Tienda</a></li>
@@ -228,6 +236,8 @@
 
     </div>
     <!-- Bootstrap -->
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    
 </body>
 </html>
