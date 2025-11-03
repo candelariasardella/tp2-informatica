@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
-  const form = document.getElementById('form-contacto');
+  const formulario = document.getElementById('form-contacto');
 
-  form.addEventListener('submit', function(e) {
+  formulario.addEventListener('submit', function(e) {
     e.preventDefault(); //evita envío real y recarga
 
     Swal.fire({
@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
       icon: 'success',
       confirmButtonText: 'Aceptar'
     }).then(function() {
-      form.reset();
+      formulario.reset();
     });
 
   });
