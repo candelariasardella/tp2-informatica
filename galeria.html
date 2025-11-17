@@ -1,31 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Frescura</title>
+    <title>Ciclo Frescura - Ediciones anteriores (galería imáganes)</title>
 
-  <!-- Favicon -->
-     <link rel="icon" type="image/x-icon" href="img/logofrescura.png">
-  
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="img/logofrescura.png">
 
-<!-- Bootstrap -->
- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
-<!-- Fuentes -->
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- Tu hoja de estilos -->
+    <link rel="stylesheet" href="css/estilos.css">
 
-<!-- Link hoja de estilos -->
+    <!-- PhotoSwipe -->
+    <link rel="stylesheet" href="css/photoswipe.css">
 
-<link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-  <div class="contenedor">
+<div class="contenedor">
 
-     <header>
+<header>
 
 <!-- Barra de navegación -->    
     
@@ -43,16 +44,17 @@
         <li class="nav-item">
           <a class="nav-link" href="quienesomos.html">Qué es Frescura</a>
         </li>
-       <li class="nav-item dropdown">
-  <a class="nav-link" href="#" id="dropdownEdiciones" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-    Ediciones Anteriores
-  </a>
-  <ul class="dropdown-menu" aria-labelledby="dropdownEdiciones">
-    <li><a class="dropdown-item" href="edicionesanteriores.html">Flyers</a></li>
-    <li><hr class="dropdown-divider"></li>
-    <li><a class="dropdown-item" href="galeria.html">Galería</a></li>
-  </ul>
-</li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="#" id="dropdownEdiciones" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Ediciones Anteriores
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownEdiciones">
+            <li><a class="dropdown-item" href="edicionesanteriores.html">Flyers</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="galeria.html">Galería</a></li>
+          </ul>
+        </li>
 
         <li class="nav-item">
           <a class="nav-link" href="stream.html">Stream</a>
@@ -63,58 +65,149 @@
         <li class="nav-item">
           <a class="nav-link" href="contacto.html">Contacto</a>
         </li>
-        </li>
-           <li class="nav-item">
-          <a class="nav-link" href="alumna.html">Alumna</a>
-        </li>   
       </ul>
-     
     </div>
   </div>
 </nav>
+</header>
 
-<!-- Inicia el footer-->
 
+
+
+<!-- PHOTOSWIPE -->
+
+<div class="container my-5">
+  <h2 class="text-center mb-4">Ediciones anteriores</h2>
+
+  <div class="pswp-gallery d-flex flex-wrap gap-3 justify-content-center" id="my-gallery">
+
+    <!-- Imagen 1 -->
+    <a href="img/galeria1.jpg"
+       data-pswp-width="1600"
+       data-pswp-height="1067">
+       <img src="img/galeria1.jpg" class="img-fluid rounded shadow" width="250" alt="">
+    </a>
+
+    <!-- Imagen 2 -->
+    <a href="img/galeria2.jpg"
+       data-pswp-width="1600"
+       data-pswp-height="1067">
+       <img src="img/galeria2.jpg" class="img-fluid rounded shadow" width="250" alt="">
+    </a>
+
+    <!-- Imagen 3 -->
+    <a href="img/galeria3.jpg"
+       data-pswp-width="1600"
+       data-pswp-height="1067">
+       <img src="img/galeria3.jpg" class="img-fluid rounded shadow" width="250" alt="">
+    </a>
+
+        <a href="img/galeria8.jpg"
+       data-pswp-width="1600"
+       data-pswp-height="1067">
+       <img src="img/galeria8.jpg" class="img-fluid rounded shadow" width="250" alt="">
+    </a>
+
+
+    <!-- Imagen 4 -->
+    <a href="img/galeria4.jpg"
+       data-pswp-width="1600"
+       data-pswp-height="1067">
+       <img src="img/galeria4.jpg" class="img-fluid rounded shadow" width="250" alt="">
+    </a>
+
+    <!-- Imagen 5 -->
+    <a href="img/galeria5.jpg"
+       data-pswp-width="1600"
+       data-pswp-height="1067">
+       <img src="img/galeria5.jpg" class="img-fluid rounded shadow" width="250" alt="">
+    </a>
+
+    <!-- Imagen 6 -->
+    <a href="img/galeria6.jpg"
+       data-pswp-width="1600"
+       data-pswp-height="1067">
+       <img src="img/galeria6.jpg" class="img-fluid rounded shadow" width="250" alt="">
+    </a>
+     
+
+      <a href="img/galeria7.jpg"
+       data-pswp-width="1600"
+       data-pswp-height="1067">
+       <img src="img/galeria7.jpg" class="img-fluid rounded shadow" width="250" alt="">
+    </a>
+
+  
+
+  </div>
+</div>
+ 
+
+
+<!-- Footer -->
 <footer class="bg-dark text-white pt-5 pb-4 mt-5">
   <div class="container">
-    <div class="d-flex flex-column flex-md-row justify-content-between align-items-start">
 
-     
-      <div class="mb-4">
-        <h4 class="fw-bold">Frescura</h4>
-        <p>Ciclo de música y poesía desde 2013.</p>
+    <div class="row text-start"> 
+      
+      <!-- Ciclo -->
+      <div class="col-12 col-md-3 mb-4 text-md-end">
+        <h4 class="fw-bold text-start text-md-end">Frescura</h4> 
+        <p>Ciclo de música y poesía. <br> Desde 2013</p>
       </div>
 
-
-      <div class="mb-4 text-start mx-md-auto">
-        <h5 class="fw-bold">Secciones</h5>
+      <!-- Secciones -->
+      <div class="col-12 col-md-3 mb-4 text-md-end">
+        <h5 class="fw-bold text-start text-md-end">Secciones</h5>
         <ul class="list-unstyled">
-          <li><a href="quienesomos.html" class="text-white text-decoration-none">Qué es Frescura</a></li>
-          <li><a href="edicionesanteriores.html" class="text-white text-decoration-none">Ediciones</a></li>
-          <li><a href="stream.html" class="text-white text-decoration-none">Stream</a></li>
-          <li><a href="tienda.html" class="text-white text-decoration-none">Tienda</a></li>
+          <li><a href="quienesomos.html" class="text-white text-decoration-none">Qué es frescura</a></li>
+          <li><a href="edicionesanteriores.html" class="text-white text-decoration-none">Ediciones anteriores</a></li>
           <li><a href="contacto.html" class="text-white text-decoration-none">Contacto</a></li>
         </ul>
       </div>
 
-      <div class="mb-4 text-md-end">
-        <h5 class="fw-bold">Seguinos</h5>
-        <div class="d-flex justify-content-md-end gap-3">
-          <a href="https://instagram.com/queesfrescura" target="_blank"><img src="img/igicon.png" width="45" alt="instagram"></a>
-          <a href="mailto:gonzaaguerrido@gmail.com" target="_blank" class="mail"><img src="img/emailicon.png" width="40" alt="email"></a>
-        </div>
-      </div>
+     
+ <!-- Seguinos (oculto en mobile, visible en desktop) -->
+<div class="col-12 col-md-3 mb-4 text-md-end d-none d-md-block">
+  <h5 class="fw-bold text-start text-md-end">Seguinos</h5>
+  <div>
+    <a href="https://instagram.com/queesfrescura" target="_blank">
+      <img src="img/igicon.png" width="45" alt="instagram">
+    </a>
+  </div>
+</div>
+
+<!-- Creado por -->
+<div class="col-12 col-md-3 mb-4 text-md-end">
+  <h5 class="fw-bold text-start text-md-end">Creado por</h5>
+  <ul class="list-unstyled">
+    <li><a href="alumna.html" class="text-white text-decoration-none">Alumna</a></li>
+  </ul>
+</div>
 
     </div>
 
     <div class="text-center mt-4">
       <small>© 2025 Frescura - Industria Argentina</small>
     </div>
+
   </div>
 </footer>
 
-    </div>
-    <!-- Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</div>
+
+
+
+<!-- Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+<!-- SCRIPT PhotoSwipe -->
+<script src="js/photoswipe/photoswipe.umd.min.js"></script>
+<script src="js/photoswipe/photoswipe-lightbox.umd.min.js"></script>
+
+<script src="js/galeria.js"></script>
+
+
 </body>
 </html>

@@ -1,1 +1,1 @@
-# Este es el TP2 de informática
+# Este es el Trabajo Práctico Nro 2 de Informática General, Cátedra Drelichman. Licenciatura en Artes Multimediales, Universidad Nacional de las Artes. 
