@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // expresiones regulares
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    const telRegex = /^[0-9]{7,15}$/;
+    const telRegex = /^[0-9]{10,15}$/;
 
     // validaciones
     if (nombre === "") {
@@ -54,7 +54,6 @@ document.addEventListener('DOMContentLoaded', function () {
       confirmButtonText: "Aceptar"
     });
 
-  
     formulario.submit();
   });
 
